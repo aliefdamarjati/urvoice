@@ -1,0 +1,43 @@
+/* Navbar */
+.navbar {
+  padding: 15px 0 !important;
+  background-color: #ff7f51;
+}
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-item .nav-link.active {
+  color: #720026;
+  font-weight: 500;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #720026;
+}
+.navbar .nav-item.dropdown .dropdown-item.active {
+  background-color: #720026;
+}
+.navbar .nav-item.dropdown .dropdown-item:focus {
+  background-color: #720026;
+}
+/* End of Navbar */
+.page-item.active a {
+  background-color: #ff7f51;
+  border: 0;
+}
+.page-item:not(.active) a {
+  color: #ff7f51;
+}
+.page-item a:focus,
+.form-select:focus,
+.form-control:hover,
+.form-control:focus {
+  border-color: #ff7f51;
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 81, 0.25);
+}

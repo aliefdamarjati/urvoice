@@ -1,0 +1,32 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fcf6f6;
+}
+a {
+  text-decoration: none;
+  color: #ff7f51;
+  transition: all ease-in-out 0.4s;
+}
+a:hover {
+  color: #e67247;
+}
+.login-box {
+  background-color: #f8f8f8;
+  box-shadow: 4px 4px 29px -11px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.sn-button {
+  background-color: #ce4257;
+  color: #ffffff;
+  transition: all ease-in-out 0.7s !important;
+}
+.sn-button:hover {
+  background-color: #af3548;
+  color: #ffffff;
+}
+.form-control:focus {
+  border-color: #ce4257;
+  box-shadow: 0 0 0 0.2rem rgba(206, 66, 87, 0.25);
+}

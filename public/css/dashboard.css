@@ -1,0 +1,41 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fcf6f6;
+}
+
+/* Section 1 */
+.sect1 {
+  background: #fcf6f6;
+  height: 100vh;
+}
+/* Navbar */
+.navbar {
+  padding: 15px 0 !important;
+  background-color: #ce4257;
+}
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-item .nav-link.active {
+  color: #ffa483;
+  font-weight: 500;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #ff7f51;
+}
+.navbar .nav-item.dropdown .dropdown-item.active {
+  background-color: #ff7f51;
+}
+.navbar .nav-item.dropdown .dropdown-item:focus {
+  background-color: #ff7f51;
+}
+/* End of Navbar */

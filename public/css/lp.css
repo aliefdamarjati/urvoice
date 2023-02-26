@@ -1,0 +1,45 @@
+/* Navbar */
+.navbar {
+  padding: 15px 0 !important;
+}
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar .nav-item .nav-link {
+  font-size: 15px;
+  font-weight: 400;
+  color: #636972;
+  transition: all 0.4s ease-in-out;
+}
+.navbar .nav-item .nav-link.active {
+  color: #ce4257;
+  font-weight: 500;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #ff7f51;
+}
+/* .navbar .login-btn {
+  background: #ce4257;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+} */
+/* .navbar .login-btn:hover {
+  background: #af3548;
+} */
+/* End of Navbar */
+/* Hero */
+.hero {
+  height: 90vh;
+}
+.hero-img {
+  margin-top: 100px;
+}
+/* End of Hero */
+/* End of Section 1 */

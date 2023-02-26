@@ -1,0 +1,106 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #fcf6f6 !important;
+}
+/* Padding and Margination */
+/* .mt-10 {
+  margin-top: 20px !important;
+}
+.mt-20 {
+  margin-top: 40px !important;
+}
+.mt-30 {
+  margin-top: 60px !important;
+}
+.mt-40 {
+  margin-top: 80px !important;
+}
+.mt-50 {
+  margin-top: 100px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+.mb-50 {
+  margin-bottom: 50px !important;
+} */
+/* Font Weight */
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.text-justify {
+  text-align: justify;
+}
+/* Color */
+.text-ur-red {
+  color: #ce4257;
+}
+.text-ur-orange {
+  color: #ff7f51;
+}
+.bg-ur-red {
+  background-color: #ce4257;
+}
+.bg-ur-orange {
+  background-color: #ff7f51;
+}
+/* End of Color */
+/* Font Sizes */
+.text-small {
+  font-size: 10px;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-30 {
+  font-size: 30px;
+}
+/* End of Font Sizes */
+/* Red and Orange Buttons */
+.btn.bg-ur-orange {
+  border: 0;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s !important;
+}
+.btn.bg-ur-orange:hover {
+  background-color: #dc724b !important;
+}
+.btn.bg-ur-orange:focus {
+  background-color: #ff7f51 !important;
+}
+
+.btn.bg-ur-red {
+  border: 0;
+  color: #ffffff;
+  transition: all ease-in-out 0.3s !important;
+}
+.btn.bg-ur-red:hover {
+  background-color: #ac394b !important;
+}
+.btn.bg-ur-red:focus {
+  background-color: #ce4257 !important;
+}
+/* End of Red and Orange Buttons */
